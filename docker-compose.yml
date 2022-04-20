@@ -3,7 +3,7 @@
 
 version: '3.8'
 services:
-  onlyoffice-mysql-server:
+  apache:
     container_name: ${APP_NAME}
     image: httpd:${APP_VERSION}
     restart: always
